@@ -33,19 +33,17 @@
             </nav>
         </div>
     </header>
-    
+
     <!-- Hero -->
     <section class="hero">
         <div class="container">
             <div class="row">
-                <div class="offset-by-four columns">
-                    <h1>Lauren Yandle</h1>
-                    <p>GIS Professional. Photographer. Artist. Aspiring Web Developer.</p>
+                <h1>Lauren Yandle</h1>
+                <p>GIS Professional. Photographer. Artist. Aspiring Web Developer.</p>
 
-                    <!--  DOWN ARROW LINK  -->
-                    <a href="#about"><i class="ion-chevron-down"></i></a>
-                    <!--  ADD BACKGROUND PHOTO IN CSS  -->
-                </div>
+                <!--  DOWN ARROW LINK  -->
+                <p class="down"><a href="#about"><i class="ion-chevron-down"></i></a></p>
+                <!--  ADD BACKGROUND PHOTO IN CSS  -->
             </div>
         </div>
     </section>
@@ -59,49 +57,32 @@
                 <div class="six columns">
                     <h3>Who am I?</h3>
                     <p>Hello! Nice to meet you! I'm Lauren.</p>
-                    
-<!--                    I've been working in the Geographic Information Systems field, and now I'm working to expand my skills into web development. I also dabble in photography and various other art mediums. Check out some of my work below!-->
                 </div>
             </div>
-            
+
             <!--  DOWN ARROW LINK  -->
-            <a href="#portfolio"><i class="ion-chevron-down"></i></a>
+            <p class="down"><a href="#portfolio"><i class="ion-chevron-down"></i></a></p>
         </div>
     </section>
 
     <!-- Portfolio -->
     <section class="portfolio">
-    <div class="container">
-        <div class="row">
-            <p class="three columns button"><i class="ion-camera"></i> Photography</p>
-            <p class="three columns button"><i class="ion-paintbrush"></i> Arts</p>
-            <p class="three columns button"><i class="ion-earth"></i> GIS</p>
-            <p class="three columns button"><i class="ion-code"></i> Web &amp; Code</p>
-        </div>
-    </div>
-    
-<!--
-        <div class="container">
-            <div class="row">
-                <p class="four columns button">Photography</p>
+        <div id="tabs">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li class="three columns button"><a href="#tabs-1"><i class="ion-camera"></i> Photography</a></li>
+                        <li class="three columns button"><a href="#tabs-2"><i class="ion-paintbrush"></i> Arts</a></li>
+                        <li class="three columns button"><a href="#tabs-3"><i class="ion-earth"></i> GIS</a></li>
+                        <li class="three columns button"><a href="#tabs-4"><i class="ion-code"></i> Web &amp; Code</a></li>
+                    </ul>
+                    <div id="tabs-1">Photography</div>
+                    <div id="tabs-2">Arts</div>
+                    <div id="tabs-3">GIS</div>
+                    <div id="tabs-4">Web &amp; Code </div>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <p class="four columns button">Arts</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <p class="four columns button">GIS</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <p class="four columns button">Web &amp; Code</p>
-            </div>
-        </div>
--->
     </section>
 
     <!-- Contact -->
@@ -122,5 +103,8 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="resources/js/scripts.js"></script>
 
 </body>

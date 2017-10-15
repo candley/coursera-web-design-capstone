@@ -9,11 +9,21 @@ nav li {
   line-height: 40px;
   height: 40px;
 }
+
+
  
 nav a {
   text-decoration: none;
   display: block;
   transition: .3s color;
+}
+
+.down {
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
 }
  
 a:hover {
